@@ -26,7 +26,7 @@ open class CommandClient(
 ) {
 
     enum class ConnectionType {
-        Status, Groups, , Providers, Log, ClashMode
+        Status, Groups, Providers, Log, ClashMode
     }
 
     interface Handler {
