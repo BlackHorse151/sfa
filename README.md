@@ -30,4 +30,3 @@ with this application without prior consent.
 
 Under the license, that forks of the app are not allowed to be listed on F-Droid or other app stores
 under the original name.
-# sfa

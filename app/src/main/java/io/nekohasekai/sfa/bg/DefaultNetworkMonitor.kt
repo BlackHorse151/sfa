@@ -55,10 +55,10 @@ object DefaultNetworkMonitor {
                     Thread.sleep(100)
                     continue
                 }
-                listener.updateDefaultInterface(interfaceName, interfaceIndex, false, false)
+                listener.updateDefaultInterface(interfaceName, interfaceIndex)
             }
         } else {
-            listener.updateDefaultInterface("", -1, false, false)
+            listener.updateDefaultInterface("", -1)
         }
     }
 
